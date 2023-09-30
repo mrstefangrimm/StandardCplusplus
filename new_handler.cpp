@@ -17,6 +17,7 @@
 	Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
+/* Workaround
 #include <new>
 
 const std::nothrow_t std::nothrow = { };
@@ -29,3 +30,4 @@ _UCXXEXPORT std::new_handler std::set_new_handler(std::new_handler new_p) throw(
 	__new_handler = new_p;
 	return retval;
 }
+*/
